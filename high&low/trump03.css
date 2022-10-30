@@ -1,0 +1,83 @@
+body {
+  background-color: #DDDDDD;
+  font: 30px sans-serif;
+  color: #000;
+}
+
+#disp {
+  width: 600px;
+  margin: auto;
+  overflow-wrap: break-word;
+}
+
+#count {
+  text-align: center;
+}
+
+input[type="button"] {
+  width: 100px;
+  font-size: 18px;
+  display: block;
+  margin: 1em auto;
+}
+
+.start_btn {
+  background-color: #ffda00;
+}
+
+.highLow_btn {
+  background-color: #fff;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Card_suitNum1,
+.Card_suitNum2 {
+  color: red;
+}
+
+.Card {
+  width: 80px;
+  height: auto;
+  border: solid 2px;
+  border-radius: 10%;
+  background-color: #fff;
+  margin: 1%;
+  padding: 5px;
+}
+
+.Card_content {
+  padding: 25px 5px;
+  text-align: center;
+}
+
+input[type="button"]:hover {
+  background-color: #fff;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.Layout_inner {
+  text-align: center;
+}
+
+
+.turnOver {
+  background-image: url(back_img.jpg);
+}
+
+.turnOver.Card_content {
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.disable {
+  opacity: 0.7;
+  pointer-events: none;
+}
